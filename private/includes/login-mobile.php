@@ -12,11 +12,11 @@
 <div id="login_box">
 <table>
     <tr>
-        <td>Username: </td>
+        <td><h1>Username: </h1></td>
     <tr><td><input type="text" id="user"></td></tr>
     </tr>
     <tr>
-        <td>Password: </td><tr><td><input type="password" id="pass"></td></tr>
+        <td><h1>Password: </h1></td><tr><td><input type="password" id="pass"></td></tr>
     </tr>
 </table>
 
