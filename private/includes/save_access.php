@@ -47,7 +47,7 @@
     $saveBlock.hide();
 
 function refresh_list() {
-    $.post("../private/ajax_programs/get_list.php", {
+    $.post("ajax_programs/get_list.php", {
             user: '<?php echo $_SESSION["user"]?>'
         }, function(data){
             //alert(data);
@@ -62,7 +62,7 @@ function show_save_block() {
 
 function get_texts(button){
     $text = $(button).attr('id');
-    $.post("../private/ajax_programs/get_text.php", {
+    $.post("ajax_programs/get_text.php", {
             user: '<?php echo $user?>',
             textname: $text
         }, function(data){
@@ -75,14 +75,14 @@ function get_texts(button){
 
 $save_text.click(function(){
     var $retval;
-    $.post("../private/ajax_programs/save_text_ajax.php", {
+    $.post("ajax_programs/save_text_ajax.php", {
         user: '<?php echo $user?>',
         text: $text_to_save.val(),
         text_title: $title_to_save.val()
     }, function(data){
         //$("#debug_code").html(data);
     }),
-    $.post("../private/ajax_programs/get_list.php", {
+    $.post("ajax_programs/get_list.php", {
         user: '<?php echo $_SESSION["user"]?>'
     }, function(data){
         $("#saved_texts").html(data);
@@ -94,14 +94,14 @@ $save_text.click(function(){
 });
 
 function logout() {
-    $.post("../private/ajax_programs/logout.php"),
+    $.post("ajax_programs/logout.php"),
         window.open("./index.php", "_self");
 }
 
 function delete_text(button) {
     $title = $(button).attr('id');
     //alert($title);
-    $.post("../private/ajax_programs/delete.php", {
+    $.post("ajax_programs/delete.php", {
             user: '<?php echo $_SESSION["user"]?>',
             title: $title
         }, function (data) {

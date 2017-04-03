@@ -37,7 +37,7 @@ Please login.
         var radios = jQuery("input[type='radio']");
         var radio = radios.filter(":checked");
         $stat = $(radio).attr('value');
-        $.post("../private/ajax_programs/check_login.php", {
+        $.post("ajax_programs/check_login.php", {
             user: $("#user").val(),
             pass: $("#pass").val(),
             stats: $stat
