@@ -85,7 +85,9 @@ session_start();
         margin-top: 20px;
     }
     #login_box{
-        font-size: 30px;;
+        font-size: 30px;
+        transform: translate(0%, 0%);
+        zoom: 5;
     }
 </style>
 <body>
