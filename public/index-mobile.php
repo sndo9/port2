@@ -86,7 +86,7 @@ session_start();
     }
     #login_box{
         font-size: 50px;
-        transform: translate(0%, 25%);
+        transform: translate(0%, 0%);
         zoom: 5;
     }
 </style>

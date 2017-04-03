@@ -12,7 +12,7 @@
 <div id="login_box">
 <table>
     <tr>
-        <td><h1>Username: </h1></td>
+        <td><h1 class="">Username: </h1></td>
     <tr><td><input type="text" id="user"></td></tr>
     </tr>
     <tr>
