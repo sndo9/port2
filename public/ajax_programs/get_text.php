@@ -6,6 +6,7 @@
  * Time: 11:06 PM
  */
 
+session_start();
 require("requires.php");
 
 if(!isset($_REQUEST["user"])){

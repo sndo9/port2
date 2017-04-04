@@ -11,7 +11,7 @@ require("requires.php");
 //print_r2($_REQUEST);
 
 $user = $_REQUEST["user"];
-$pass = $_REQUEST["pass"];
+$pass = password_hash($_POST["pass"], PASSWORD_BCRYPT, ['cost' => 10]);
 
 if($_REQUEST["stats"] == "register"){
 
@@ -26,6 +26,7 @@ if($_REQUEST["stats"] == "register"){
     $ret = mysqli_query($connect, $query);
 
     if($ret->num_rows == 0){
+
         $query = "
             INSERT INTO `user` (`username`, `password`) VALUES ('$user', '$pass')
         ";
@@ -57,7 +58,8 @@ if($_REQUEST["stats"] == "login"){
         $_SESSION["user"] = $_REQUEST["user"];
     } else{
         $_SESSION["message"] = "<h1>Incorrect username or password</h1>";
+        exit();
     }
-
+    //print_r2($_SESSION);
     echo "good";
 }

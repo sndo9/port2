@@ -78,20 +78,23 @@ require("../private/includes/requires.php");
         }
     </style>
 
+    <?php
+    //print_r2($_SESSION);
+    if(isset($_SESSION["message"]))
+    {
+        echo($_SESSION["message"]);
+        unset($_SESSION["message"]);
+    };
+    if(!isset($_SESSION["user"])) {
+        include("../private/includes/login.php");
+    } else{
+        include("../private/includes/save_access.php");
+    }
+    ?>
+
     <div class="background">
         <meta charset="UTF-8">
-        <?php
-        if(isset($_SESSION["login_message"]))
-        {
-            echo($_SESSION["login_message"]);
-            unset($_SESSION["login_message"]);
-        };
-            if(!isset($_SESSION["user"])) {
-                include("../private/includes/login.php");
-            } else{
-                include("../private/includes/save_access.php");
-            }
-        ?>
+
 
     </body>
 

@@ -10,7 +10,7 @@
     <subtitle>Robert Guetzlaff and William Paul</subtitle>
 </p>
 
-Please login.
+<div id="message2">Please login</div>
 
 <br><br>
 
@@ -34,6 +34,7 @@ Please login.
 
 <script>
     $("#submit").click(function(){
+
         var radios = jQuery("input[type='radio']");
         var radio = radios.filter(":checked");
         $stat = $(radio).attr('value');
@@ -42,11 +43,11 @@ Please login.
             pass: $("#pass").val(),
             stats: $stat
         }, function(data){
-            //alert(data);
+            alert(data);
             if(data == "good") {
-                //alert("should");
                 window.open("./index.php", "_self");
             }
+            $("#message2").html(data);
             }
         )
     })
