@@ -32,7 +32,7 @@
       <file leaf-file-name="index-mobile.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index-mobile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="737">
+            <state relative-caret-position="1545">
               <caret line="103" column="71" lean-forward="false" selection-start-line="103" selection-start-column="71" selection-end-line="103" selection-end-column="71" />
               <folding />
             </state>
@@ -42,8 +42,8 @@
       <file leaf-file-name="save_access.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/private/includes/save_access.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="55" column="6" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="55" selection-end-column="6" />
+            <state relative-caret-position="540">
+              <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="98" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -52,22 +52,53 @@
       <file leaf-file-name="save_access-mobile.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/private/includes/save_access-mobile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            <state relative-caret-position="90">
+              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
               <folding>
                 <element signature="e#6#85#0#PHP" expanded="true" />
+                <element signature="n#style#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#2;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#2;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#2;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="get_list.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/ajax_programs/get_list.php">
+      <file leaf-file-name="save_text_ajax.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/ajax_programs/save_text_ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            <state relative-caret-position="90">
+              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
               <folding>
-                <marker date="1491130414000" expanded="true" signature="166:210" ph="SELECT * FRO... texts" />
+                <element signature="e#6#86#0#PHP" expanded="true" />
+                <marker date="1491267619000" expanded="true" signature="317:359" ph="SELECT * FRO... texts" />
+                <marker date="1491267619000" expanded="true" signature="317:386" ph="SELECT * FRO... texts" />
+                <marker date="1491267619000" expanded="true" signature="539:630" ph="INSERT INTO texts... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="87" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="87" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="get_text.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/ajax_programs/get_text.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+              <folding>
+                <element signature="e#6#86#0#PHP" expanded="true" />
+                <marker date="1491130423000" expanded="true" signature="280:322" ph="SELECT * FRO... texts" />
               </folding>
             </state>
           </provider>
@@ -107,12 +138,13 @@
         <option value="$PROJECT_DIR$/private/ajax_programs/get_text.php" />
         <option value="$PROJECT_DIR$/private/ajax_programs/save_text_ajax.php" />
         <option value="$PROJECT_DIR$/public/index.php" />
-        <option value="$PROJECT_DIR$/private/includes/save_access.php" />
         <option value="$PROJECT_DIR$/private/includes/login.php" />
         <option value="$PROJECT_DIR$/public/ajax_programs/requires.php" />
         <option value="$PROJECT_DIR$/private/includes/login-mobile.php" />
         <option value="$PROJECT_DIR$/public/ajax_programs/check_login.php" />
         <option value="$PROJECT_DIR$/public/index-mobile.php" />
+        <option value="$PROJECT_DIR$/public/ajax_programs/save_text_ajax.php" />
+        <option value="$PROJECT_DIR$/private/includes/save_access.php" />
         <option value="$PROJECT_DIR$/private/includes/save_access-mobile.php" />
       </list>
     </option>
@@ -192,42 +224,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ajax_programs" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="port2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="port2" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="private" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="port2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="port2" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="private" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -315,18 +311,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491096709266</updated>
-      <workItem from="1491096710545" duration="29843000" />
+      <workItem from="1491096710545" duration="33300000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29843000" />
+    <option name="totallyTimeSpent" value="33300000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="529" y="23" width="1151" height="1023" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24934839" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24934839" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -458,17 +454,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/ajax_programs/get_text.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding>
-            <element signature="e#6#86#0#PHP" expanded="true" />
-            <marker date="1491130423000" expanded="true" signature="280:322" ph="SELECT * FRO... texts" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/ajax_programs/logout.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -476,27 +461,6 @@
           <folding>
             <element signature="e#6#85#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ajax_programs/save_text_ajax.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="e#6#86#0#PHP" expanded="true" />
-            <marker date="1491130441000" expanded="true" signature="317:359" ph="SELECT * FRO... texts" />
-            <marker date="1491130441000" expanded="true" signature="317:386" ph="SELECT * FRO... texts" />
-            <marker date="1491130441000" expanded="true" signature="539:630" ph="INSERT INTO texts... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="87" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="87" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -530,6 +494,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/ajax_programs/save_text_ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="true" />
+            <marker date="1491267619000" expanded="true" signature="317:359" ph="SELECT * FRO... texts" />
+            <marker date="1491267619000" expanded="true" signature="317:386" ph="SELECT * FRO... texts" />
+            <marker date="1491267619000" expanded="true" signature="539:630" ph="INSERT INTO texts... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/private/includes/login-mobile.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -539,22 +516,6 @@
             <marker date="1491265312000" expanded="true" signature="393:416" ph="..." />
             <marker date="1491265312000" expanded="true" signature="823:840" ph="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index-mobile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="737">
-          <caret line="103" column="71" lean-forward="false" selection-start-line="103" selection-start-column="71" selection-end-line="103" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/includes/save_access.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="55" column="6" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="55" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -568,12 +529,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="87" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ajax_programs/get_text.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="true" />
+            <marker date="1491130423000" expanded="true" signature="280:322" ph="SELECT * FRO... texts" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index-mobile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1545">
+          <caret line="103" column="71" lean-forward="false" selection-start-line="103" selection-start-column="71" selection-end-line="103" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/includes/save_access.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="98" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/private/includes/save_access-mobile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        <state relative-caret-position="90">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding>
             <element signature="e#6#85#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#2;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#2;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>

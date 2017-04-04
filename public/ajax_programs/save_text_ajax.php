@@ -36,4 +36,6 @@ $query = "
 
 mysqli_query($connect, $query);
 
+echo mysqli_error($connect);
+
 echo "Entry added";
