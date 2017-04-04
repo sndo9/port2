@@ -11,6 +11,7 @@ session_start();
 <html>
 <head>
     <title></title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </head>
 <style>
     .background:before{
@@ -99,6 +100,8 @@ session_start();
         <?php
             if(!isset($_SESSION["user"])){
                 require ("../private/includes/login-mobile.php");
+            } else {
+                require ("../private/includes/save_access-mobile.php");
             }
         ?>
 

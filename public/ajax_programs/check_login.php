@@ -14,6 +14,11 @@ $user = $_REQUEST["user"];
 $pass = $_REQUEST["pass"];
 
 if($_REQUEST["stats"] == "register"){
+
+    if($user == "" || $pass == ""){
+        echo "Username and password are required";
+        exit();
+    }
     $query = "
         SELECT * FROM user WHERE username='$user';
     ";
@@ -50,6 +55,8 @@ if($_REQUEST["stats"] == "login"){
 
     if(password_verify($_REQUEST["pass"], $user["password"])){
         $_SESSION["user"] = $_REQUEST["user"];
+    } else{
+        $_SESSION["message"] = "<h1>Incorrect username or password</h1>";
     }
 
     echo "good";

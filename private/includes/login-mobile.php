@@ -7,8 +7,18 @@
  */
 
 ?>
+<div id="message">
+    <?php
+        if(isset($_SESSION["message"])){
+            echo "<h1>" . $_SESSION["message"] . "</h1>";
+            unset($_SESSION["message"]);
+        } else {
+            echo "<h1>Welcome, please login</h1>";
+        }
+    ?>
 
-<h1>Welcome, please login</h1><hr>
+</div>
+<hr>
 <div id="login_box">
 <table>
     <tr>
@@ -20,6 +30,23 @@
     </tr>
 </table>
 
-<button id="login">Login</button>
-<button id="register">Register</button>
+    <input type="button" value="Login" id="register" onclick="check('login')">
+<input type="button" value="Register" id="register" onclick="check('register')">
 </div>
+
+<script>
+    function check(which) {
+        $.post("ajax_programs/check_login.php", {
+                user: $("#user").val(),
+                pass: $("#pass").val(),
+                stats: which
+            }, function(data){
+                if(data == "good") {
+                    window.open("./index-mobile.php", "_self");
+                }else {
+                    $("#message").html(data);
+                }
+            }
+        )
+    };
+</script>
